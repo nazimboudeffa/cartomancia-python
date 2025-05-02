@@ -82,7 +82,7 @@ def main():
     shuffle_times = int(input("Combien de fois voulez-vous mélanger le deck (vous pouvez utiliser un dé de 6) ? "))
     deck = shuffle_deck_times(deck, shuffle_times)
 
-    nb_cards = int(input("Combien de cartes voulez-vous tirer ? (ex : 1, 3 ou 13) "))
+    nb_cards = int(input("Combien de cartes voulez-vous tirer ? (ex : 1, 3 ou 5) "))
     drawn = draw_cards(deck, nb_cards)
     interpret_cards(drawn)
 
