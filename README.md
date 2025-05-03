@@ -12,3 +12,5 @@ main
 interpret-1
 
 yes-no
+
+I suggest one time in a week
