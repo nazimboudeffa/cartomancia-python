@@ -1,5 +1,5 @@
 # Dictionnaire des significations simples pour chaque carte
-card_meanings = {
+card_meanings_32 = {
     # Cœurs (H - Hearts) : domaine affectif, famille, amour
     ('7', 'H'): "Petit bonheur affectif",
     ('8', 'H'): "Pensées amoureuses",
@@ -39,4 +39,19 @@ card_meanings = {
     ('Q', 'S'): "Femme froide ou distante",
     ('K', 'S'): "Homme autoritaire ou difficile",
     ('A', 'S'): "Décision importante, parfois rupture",
+}
+
+card_polarity_32 = {
+    # Cœurs
+    'H': {'7': 'positive', '8': 'positive', '9': 'positive', 'T': 'positive',
+          'J': 'positive', 'Q': 'positive', 'K': 'positive', 'A': 'positive'},
+    # Carreaux
+    'D': {'7': 'positive', '8': 'positive', '9': 'positive', 'T': 'positive',
+          'J': 'positive', 'Q': 'positive', 'K': 'positive', 'A': 'positive'},
+    # Trèfles
+    'C': {'7': 'positive', '8': 'positive', '9': 'positive', 'T': 'positive',
+          'J': 'positive', 'Q': 'positive', 'K': 'positive', 'A': 'positive'},
+    # Piques
+    'S': {'7': 'negative', '8': 'neutral', '9': 'negative', 'T': 'neutral',
+          'J': 'negative', 'Q': 'negative', 'K': 'negative', 'A': 'negative'},
 }

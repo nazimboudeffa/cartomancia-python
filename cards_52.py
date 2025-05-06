@@ -1,4 +1,4 @@
-card_meanings = {
+card_meanings_52 = {
     # Cœurs (H - Hearts) : domaine affectif, famille, amour
     ('2', 'H'): "Naissance d’un sentiment",
     ('3', 'H'): "Rencontre ou début affectif",
@@ -58,4 +58,42 @@ card_meanings = {
     ('Q', 'S'): "Femme froide ou distante",
     ('K', 'S'): "Homme autoritaire ou difficile",
     ('A', 'S'): "Décision importante, parfois rupture",
+}
+
+card_polarity_52 = {
+    # Cœurs (H) : globalement positifs, domaine affectif
+    'H': {
+        '2': 'positive', '3': 'positive', '4': 'positive',
+        '5': 'positive', '6': 'positive', '7': 'positive',
+        '8': 'positive', '9': 'positive', 'T': 'positive',
+        'J': 'positive', 'Q': 'positive', 'K': 'positive',
+        'A': 'positive',
+    },
+
+    # Carreaux (D) : matériel, plutôt positif
+    'D': {
+        '2': 'positive', '3': 'positive', '4': 'neutral',
+        '5': 'positive', '6': 'positive', '7': 'positive',
+        '8': 'positive', '9': 'positive', 'T': 'positive',
+        'J': 'positive', 'Q': 'neutral', 'K': 'positive',
+        'A': 'positive',
+    },
+
+    # Trèfles (C) : chance et travail, plutôt positif
+    'C': {
+        '2': 'positive', '3': 'positive', '4': 'neutral',
+        '5': 'positive', '6': 'positive', '7': 'positive',
+        '8': 'positive', '9': 'positive', 'T': 'positive',
+        'J': 'positive', 'Q': 'positive', 'K': 'positive',
+        'A': 'positive',
+    },
+
+    # Piques (S) : épreuves, plutôt négatif ou neutre
+    'S': {
+        '2': 'neutral', '3': 'negative', '4': 'negative',
+        '5': 'negative', '6': 'neutral', '7': 'negative',
+        '8': 'neutral', '9': 'negative', 'T': 'neutral',
+        'J': 'negative', 'Q': 'negative', 'K': 'negative',
+        'A': 'negative',
+    },
 }
