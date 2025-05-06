@@ -15,7 +15,7 @@ def create_deck_52():
     # Les couleurs des cartes
     suits = ['H', 'D', 'C', 'S']
     # Les valeurs des cartes (32 cartes : 7 à As)
-    values = ['7', '8', '9', 'T', 'J', 'Q', 'K', 'A']
+    values = ['2', '3', '4', '5,' ,'6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A']
     
     # Création du deck
     deck = [(value, suit) for suit in suits for value in values]
